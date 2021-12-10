@@ -21,6 +21,11 @@
   },
   "homepage": "https://github.com/sleepyfox/code-kata-starter#readme",
   "devDependencies": {
-    "jasmine": "^3.7.0"
+    "jasmine": "3.x",
+    "jshint": "2.x"
+  },
+  "jshintConfig": {
+    "esversion": 11,
+    "asi": true
   }
 }
