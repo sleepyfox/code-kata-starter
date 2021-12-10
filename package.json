@@ -2,9 +2,10 @@
   "name": "code-kata-starter",
   "version": "1.0.0",
   "description": "A starter project with a passing test",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "jasmine"
+    "lint": "jshint src spec",
+    "test": "npm run lint; jasmine"
   },
   "repository": {
     "type": "git",

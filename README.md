@@ -12,15 +12,20 @@ You should see output similar to the following:
 
 ```bash
 > code-kata-starter@1.0.0 test
-jasmine
- 
-Randomized with seed 11158
+> npm run lint; jasmine
+
+
+> code-kata-starter@1.0.0 lint
+> jshint src spec
+
+Randomized with seed 89036
 Started
 .
 
+
 1 spec, 0 failures
-Finished in 0.008 seconds
-Randomized with seed 11158 (jasmine --random=true --seed=11158)
+Finished in 0.005 seconds
+Randomized with seed 89036 (jasmine --random=true --seed=89036)
 ```
 
 This means you are all ready for your code kata, enjoy!
