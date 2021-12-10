@@ -12,7 +12,7 @@ You should see output similar to the following:
 
 ```bash
 > code-kata-starter@1.0.0 test
-> npm run lint; jasmine
+> npm run lint && jasmine
 
 
 > code-kata-starter@1.0.0 lint

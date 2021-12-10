@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "lint": "jshint src spec",
-    "test": "npm run lint; jasmine"
+    "test": "npm run lint && jasmine"
   },
   "repository": {
     "type": "git",
